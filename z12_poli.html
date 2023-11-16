@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+       <head>
+<title> Proste Oblizenia</title>
+          <meta charset="utf-8">
+         </head>
+<body>
+             <div style="color:red;font-size:32px;">
+             <script language="JavaScript">
+             var liczba1=prompt("d1=","");
+             var liczba2=prompt("d2=","");
+             var godzina1=prompt("g1=","");
+             var godznia2=prompt("g2=","");
+             var ile_sekund_dzi;
+             var ile_sekund_wgodzinie_dat;
+             var d1_dat=parseFloat(liczba1);
+             var d2_dat=parseFloat(liczba2);
+             var g1_dat=parseFloat(godzina1);
+             var g2_dat=parseFloat(godzina2);
+             ile_sekund_dat=(d2_dat-d1_dat)*24*3600;
+             ile_sekund_wgodzinie_dat=(g2_dat-g1_dat*24*3600)
+             document.write(" D1= " +d1_dat+  "  D2= "+d2_dat+  "  G1= "  +G1_dat+  "  G2= "  +G2_dat+  "<br>");
+             document.write("Ile sekund miedzy dniami: "+ile_sekund_dat+"<br>");
+             document.write("Ile sekund miedzy godzinami: "+ile_sekund_wgodzinie_dat+"<br>");
+           </script>
+       </div>
+   </body>
+</html>
